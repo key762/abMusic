@@ -17,6 +17,10 @@ java -jar classfinal-fatjar-1.2.1.jar -C
 
 Server code is: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
+## 启动命令
+```
+java -javaagent:abMusic.jar -jar abMusic.jar
+```
 
 ## 通过接口处理歌单
 - http://127.0.0.1:8088/disst?id=歌单id
