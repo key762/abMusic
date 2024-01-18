@@ -40,4 +40,6 @@ java -javaagent:abMusic.jar -jar abMusic.jar
 - http://127.0.0.1:8088/upload?id=歌单id&ip=手机IP(接受文件网页的IP)&port=手机PORT(接受文件网页的PORT)
 ## 获取单个歌曲的flac地址
 - http://127.0.0.1:8088/flac?mid=歌曲的songmid
+- ![2d8b6845c43cb7cd8a189bc8d4ee7e10](https://github.com/key762/abMusic/assets/95260477/e37667e7-d40a-40ff-9d52-21be6bdbd9aa)
+
 
