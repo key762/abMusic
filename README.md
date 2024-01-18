@@ -21,6 +21,18 @@ Server code is: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 java -javaagent:abMusic.jar -jar abMusic.jar
 ```
+## 文件说明 会在当前用户的目录下生成如下的文件结构
+```
+.
+└── abMusic
+    └── xxxxxxxx (歌单ID)
+        ├── abMusic.txt (椒盐音乐歌单txt文件)
+        ├── diy (异常文件修复目录)
+        ├── lan (最终文件目录-含名称排序)
+        ├── las (最终文件目录)
+        ├── mp3 (资源mid文件目录)
+        └── tmp (处理缓存目录)
+```
 
 ## 通过接口处理歌单
 - http://127.0.0.1:8088/disst?id=歌单id
