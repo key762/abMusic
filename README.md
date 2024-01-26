@@ -26,9 +26,9 @@ java -javaagent:abMusic.jar -jar abMusic.jar
 .
 └── abMusic
     └── xxxxxxxx (歌单ID)
-        ├── abMusic.txt (椒盐音乐歌单txt文件)
-        ├── diy (异常文件修复目录)
-        ├── lan (最终文件目录-含名称排序)
+        ├── dis (椒盐音乐歌单目录)
+            └── abMusic.txt (椒盐音乐歌单txt文件)
+        ├── diy (异常文件修复目录:如下架音乐等)
         ├── las (最终文件目录)
         ├── mp3 (资源mid文件目录)
         └── tmp (处理缓存目录)
